@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(167, 252, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(75, 124, 126);
+}
+h2{
+    color:  darkgreen;
+}
+#principal{
+    text-align: center;
+}
+p{
+    background-color: white;
+}
+.advanced{
+    color: brown;
+    font-weight: bolder;
+}
+.intermerd{
+    color: blue;
+    background-color: yellow;
+}

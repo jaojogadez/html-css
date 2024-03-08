@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font: normal normal 1em Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.842);
+        }
+        a, h1{
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            color: yellow;
+        }
+        a:active{
+            color: chartreuse;
+        }
+
+        a::after{
+            content: ' [---link] ' ;
+            text-decoration: none;
+            font-weight: normal;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf" target="_blank">Repositório do Github</a></li>
+        <li><a href="https://chromewebstore.google.com/?hl=pt-BR" target="_blank">Web Store</a></li>
+        <li><a href="https://www.cursoemvideo.com/meus-cursos/#google_vignette" target="_blank">Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>
