@@ -9,7 +9,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
-            width: 400px;
+            width: 500px;
             border-collapse: collapse;
         }
         td, th{
@@ -23,6 +23,12 @@
         }
         .num{
             text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightblue;
         }
     </style>
 </head>
@@ -41,12 +47,13 @@
                 
     -->
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>
+                <th scope="col">
                     Estado
                 </th>
-                <th>
+                <th scope="col" style="width: 50px;">
                     População
                 </th>
             </tr>
@@ -176,7 +183,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>
+                <th scope="row">
                     Total de Habitantes
                 </th>
                 <td class="num">
