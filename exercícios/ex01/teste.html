@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Posicionamento</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            min-height: 97vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header{
+            text-align: center;
+            margin: 50px 0;
+        }
+        header p{
+            font-size: 2em;
+            margin: 10px 0;
+        }
+        header h1{
+            margin: 10px 0;
+        }
+        main{
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5rem;
+
+        }
+        div{
+            border: 1px solid black;
+            width: 150px;
+            height: 150px;
+        }
+        .verde{
+            background-color: chartreuse;
+
+        }
+        .rosa{
+            background-color: deeppink;
+        }
+        #cimaebaixo{
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+            position: absolute;
+        }
+        #dolado{
+            position: relative;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>IIONOINCODICNDCN</p>
+        <h1>AQUELE TITULO LA</h1>
+    </header>
+    <main>
+
+        <section id="cimaebaixo">
+            <div class="verde"></div>
+            <div class="verde"></div>
+        </section>
+        <section id="dolado">
+            <div class="rosa"></div>
+            <div class="rosa"></div>
+        </section>
+    </main>
+</body>
+</html>
