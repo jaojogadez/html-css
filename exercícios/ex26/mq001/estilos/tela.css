@@ -1,2 +1,45 @@
 @charset "UTF-8";
-/* tELAS */
+/* telas */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: lightgray;
+}
+
+header h1{
+    text-align: center;
+    padding: 20px;
+}
+
+menu ul{
+    list-style-type: none;
+    background-color: darkgrey;
+}
+
+menu li{
+    display: inline-block;
+    padding: 12px;
+    background-color: grey;
+    color: white;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+article p {
+    text-align: justify;
+    margin-top: 10px;
+}
