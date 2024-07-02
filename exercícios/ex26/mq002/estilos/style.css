@@ -1,3 +1,19 @@
 @charset "UTF-8";
 
 /* Conf gerais */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    text-shadow: 3px 2px 0px #0000003a;
+    padding: 10px;
+}

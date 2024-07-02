@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* Conf em pé  */
+
+body{
+    background-image:url('../imgs/cev-portrait.jpg');
+    background-size: contain;
+    background-position: bottom center;
+}
