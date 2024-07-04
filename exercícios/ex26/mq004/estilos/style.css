@@ -36,9 +36,11 @@ h1{
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.39);
 }
 
-main img{ 
-    display: none; 
+img{
     margin: auto;
 }
-
 #phone{ display: block; }
+#tablet{ display: none; }
+#print{ display: none; }
+#pc{ display: none; }
+#tv{ display: none; }
