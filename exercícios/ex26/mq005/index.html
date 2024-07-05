@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Média Queries Projeto</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <nav>
+        <span  class="material-symbols-outlined menu" onclick="aparece()" id="burguer">
+            menu  <!-- Chama o icon -->
+        </span>
+        <span class="material-symbols-outlined menu" id="close" onclick="desaparece()">
+            close
+        </span>
+        <nav id="nav">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -37,5 +44,6 @@
             
         </article>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

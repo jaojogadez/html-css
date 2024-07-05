@@ -20,9 +20,25 @@ header h1{
     text-align: center;
 }
 
-nav{
+.menu{
+    background-color: rgb(54, 54, 54);
     display: block;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
 }
+.menu:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+#close{
+    display: none;
+}
+nav{
+    display: none;
+}
+
 nav ul{
     list-style-type: none;
 }
