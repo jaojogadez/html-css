@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaqueries.css">
 </head>
-<body>
+<body onresize="changeSize()">
     <header>
         <h1>Meu site</h1>
         <span  class="material-symbols-outlined menu" onclick="aparece()" id="burguer">
             menu  <!-- Chama o icon -->
         </span>
-        <span class="material-symbols-outlined menu" id="close" onclick="desaparece()">
+        <span class="material-symbols-outlined menu" id="close">
             close
         </span>
         <nav id="nav">

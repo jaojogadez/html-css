@@ -2,12 +2,19 @@ const m = document.getElementById('nav');
 const b = document.getElementById('burguer');
 const c = document.getElementById('close');
 function aparece(){
-    m.style.display = 'block';
-    b.style.display = 'none';
-    c.style.display = 'block';
+    if(m.style.display == 'none'){
+        m.style.display = 'block'
+    }
+    else{
+        m.style.display = 'none'
+    }
 }
-function desaparece(){
-    m.style.display = 'none';
-    b.style.display = 'block';
-    c.style.display = 'none';
+
+function changeSize(){
+    if(window.innerWidth >= 992){
+        m.style.display = 'block'
+    }
+    else{
+        m.style.display = 'none'
+    }
 }
