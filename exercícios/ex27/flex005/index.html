@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box Centralizado</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            background-color: chartreuse;
+            width: 90vw;
+            height: 90vh;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            background-color: blueviolet;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+    </main>
+</body>
+</html>
